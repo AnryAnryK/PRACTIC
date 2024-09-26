@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson3/FindInGitHubSelenideWikiSoftAssertionsJUnit5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson4_1/FindInGitHubSolutionsWithHover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson4_2/HerokuappDragAndDrop.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2mZ6z5lLGSnF7ZM7vu8mSW1hAKr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
+    "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
+    "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
+    "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
+    "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
+    "JUnit.HerokuappDragAndDrop.DragAndDrops.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.5908046",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SelenideTests.Lesson3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java\SelenideTests\Lesson3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HerokuappDragAndDrop.DragAndDrops">
+    <configuration name="FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SelenideTests.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FindInGitHubSelenideWikiSoftAssertionsJUnit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenideTests.Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenideTests.Lesson3" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson3.FindInGitHubSelenideWikiSoftAssertionsJUnit5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenideTests.Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenideTests.Lesson3" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson3.FindInGitHubSelenideWikiSoftAssertionsJUnit5" />
+      <option name="METHOD_NAME" value="OpenGitHubPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindInGitHubSolutionsWithHover.OpenGitHubPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenideTests.Lesson4_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenideTests.Lesson4" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson4_1.FindInGitHubSolutionsWithHover" />
+      <option name="METHOD_NAME" value="OpenGitHubPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HerokuappDragAndDrop.DragAndDrops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenideTests.Lesson4_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenideTests.Lesson4_2" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson4_2.HerokuappDragAndDrop" />
+      <option name="METHOD_NAME" value="DragAndDrops" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HerokuappDragAndDrop.DragAndDrops" />
+        <item itemvalue="JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage" />
+        <item itemvalue="JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" />
+        <item itemvalue="JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5" />
+        <item itemvalue="Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="" />
+      <created>1727272013003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727272013003</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
