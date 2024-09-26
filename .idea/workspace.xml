@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson3/FindInGitHubSelenideWikiSoftAssertionsJUnit5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson4_1/FindInGitHubSolutionsWithHover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson4_2/HerokuappDragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sampleFile1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +43,8 @@
   "keyToString": {
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
+    "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
+    "JUnit.DemoQaComAutoForm.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
@@ -63,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
@@ -76,48 +65,41 @@
       <recent name="SelenideTests.Lesson3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\resources" />
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java\SelenideTests\Lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HerokuappDragAndDrop.DragAndDrops">
-    <configuration name="FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;SelenideTests.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="FindInGitHubSelenideWikiSoftAssertionsJUnit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="DemoQaComAutoForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson3.*" />
+          <option name="PATTERN" value="SelenideTests.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SelenideTests.Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson3.FindInGitHubSelenideWikiSoftAssertionsJUnit5" />
+      <option name="PACKAGE_NAME" value="SelenideTests.Lesson7" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7.DemoQaComAutoForm" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoQaComAutoForm.DemoQaComAutoFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenideTests.Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenideTests.Lesson7" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7.DemoQaComAutoForm" />
+      <option name="METHOD_NAME" value="DemoQaComAutoFormTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest" />
+        <item itemvalue="JUnit.DemoQaComAutoForm" />
         <item itemvalue="JUnit.HerokuappDragAndDrop.DragAndDrops" />
         <item itemvalue="JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage" />
         <item itemvalue="JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" />
-        <item itemvalue="JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5" />
-        <item itemvalue="Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" />
       </list>
     </recent_temporary>
   </component>
