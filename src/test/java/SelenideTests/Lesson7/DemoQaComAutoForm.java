@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byTagAndText;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
@@ -106,61 +107,76 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Имя и Фамилия - 'Mark Petrov'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(text("Student Name"),
-					text("Mark Petrov"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Student Name"))
+					.sibling(0)
+					.shouldHave(text("Mark Petrov"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Электронная почта - 'MarkPetrov@mail.com'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Student Email"), text("MarkPetrov@mail.com"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Student Email"))
+					.sibling(0)
+					.shouldHave(text("MarkPetrov@mail.com"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Пол - 'Male'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Gender"), text("Male"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Gender"))
+					.sibling(0)
+					.shouldHave(text("Male"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Телефон - '1234568910'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Mobile"), text("1234568910"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Mobile"))
+					.sibling(0)
+					.shouldHave( text("1234568910"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Дата рождения - '01 January,1900'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Date of Birth"),
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Date of Birth"))
+					.sibling(0)
+					.shouldHave(
 					text("01 January,1900"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Предмет / Область знаний/работы  - 'English'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Subjects"),
-					text("English"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Subjects"))
+					.sibling(0)
+					.shouldHave(text("English"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Хобби - 'Sports'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Hobbies"),
-					text("Sports"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Hobbies"))
+					.sibling(0)
+					.shouldHave(text("Sports"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Picture - соответствует загруженной с названием 'sampleFile1.jpeg'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Picture"),
-					text("sampleFile1.jpeg"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Picture"))
+					.sibling(0)
+					.shouldHave(text("sampleFile1.jpeg"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Адрес - 'Russia, Moscow 1'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("Address"),
-					text("Russia, Moscow 1"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "Address"))
+					.sibling(0)
+					.shouldHave(text("Russia, Moscow 1"));
 		});
 
 		step("3 Шаг: Проверить данные заполненной формы - Штат и Город - 'Rajasthan Jaiselmer'", () -> {
-			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
-					text("State and City"),
-					text("Rajasthan Jaiselmern"));
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']")
+					.$(byTagAndText("td", "State and City"))
+					.sibling(0)
+					.shouldHave(text("Rajasthan Jaiselmer"));
 		});
-
+//sleep(99999999);
 		//	УСПЕШНО !!!
 	}
 }
