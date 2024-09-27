@@ -1,12 +1,8 @@
-package SelenideTests.Lesson7;
+package SelenideTests.Lesson7and15;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
-import io.qameta.allure.Step;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byTagAndText;
