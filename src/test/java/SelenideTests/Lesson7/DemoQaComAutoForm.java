@@ -2,72 +2,165 @@ package SelenideTests.Lesson7;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+import static io.qameta.allure.Allure.step;
 
-public class DemoQaComAutoForm {
+public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 
 
 	@Test
-	@Description("автотест на проверку формы https://demoqa.com/automation-practice-form")
+	@Description("Автотест на проверку заполнения формы https://demoqa.com/automation-practice-form")
+	@Owner("Калинченко Андрей Дмитриевич")
 
 	//	УСПЕШНО !!!
 
 	public void DemoQaComAutoFormTest() {
 
-		Configuration.pageLoadStrategy = "eager";
-		Configuration.browserSize = "1920x1080";
-
 		// 1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form
-		open("https://demoqa.com/automation-practice-form");
+		step("1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form", () ->
+		{
+			open(website);
+		});
 
-		// 2 Шаг: заполнить форму
-		$x(".//*[@id='firstName']").setValue("Mark");
-		$x(".//*[@id='lastName']").setValue("Petrov");
-		$x(".//*[@id='userEmail']").setValue("MarkPetrov@mail.com");
-		$x(".//*[@class='practice-form-wrapper']").$(byText("Male")).click();
-		$x(".//*[@id='userNumber']").setValue("1234568910");
-		$x(".//*[@id='dateOfBirthInput']").click();
-		$x(".//*[@class='react-datepicker__month-select']").$(byText("January")).click();
-		$x(".//*[@class='react-datepicker__year-select']").$(byText("1900")).click();
-		$x(".//*[@class='react-datepicker__day react-datepicker__day--001']").click();
-		$x(".//*[@id='subjectsInput']").setValue("English").pressEnter();
-		$x(".//*[@id='hobbiesWrapper']").$(byText("Sports")).click();
-		$x(".//*[@id='uploadPicture']").uploadFromClasspath("sampleFile1.jpeg");
-		$x(".//*[@id='currentAddress']").setValue("Russia, Moscow 1");
-		$x(".//*[@class=' css-1wa3eu0-placeholder']").click();
-		$x(".//*[@id='stateCity-wrapper']").$(byText("Rajasthan")).click();
-		$x(".//*[@class=' css-1wa3eu0-placeholder']").click();
-		$x(".//*[@id='stateCity-wrapper']").$(byText("Jaiselmer")).click();
-		$x(".//*[@id='submit']").click();
 
-		// 3 Шаг: проверить данные заполнной формы
-		$x(".//*[@id='example-modal-sizes-title-lg']").shouldHave(text("Thanks for submitting the form"));
-		$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(text("Student Name"),
-				text("Mark Petrov"),
-				text("Student Email"),
-				text("MarkPetrov@mail.com"),
-				text("Gender"),
-				text("Male"),
-				text("Mobile"),
-				text("1234568910"),
-				text("Date of Birth"),
-				text("01 January,1900"),
-				text("Subjects"),
-				text("English"),
-				text("Hobbies"),
-				text("Sports"),
-				text("Picture"),
-				text("sampleFile1.jpeg"),
-				text("Address"),
-				text("Russia, Moscow 1"),
-				text("State and City"),
-				text("Rajasthan Jaiselmer"));
-	//	УСПЕШНО !!!
+		// 2 Шаг: Заполнить форму
+		step("2 Шаг: Заполнить форму - Имя", () ->
+		{
+			$x(".//*[@id='firstName']").setValue("Mark");
+		});
+
+		step("2 Шаг: Заполнить форму - Фамилию", () ->
+		{
+			$x(".//*[@id='lastName']").setValue("Petrov");
+		});
+
+		step("2 Шаг: Заполнить форму - Электронную почту", () ->
+		{
+			$x(".//*[@id='userEmail']").setValue("MarkPetrov@mail.com");
+		});
+
+		step("2 Шаг: Заполнить форму - Пол", () ->
+		{
+			$x(".//*[@class='practice-form-wrapper']").$(byText("Male")).click();
+		});
+
+		step("2 Шаг: Заполнить форму - Телефон", () ->
+		{
+			$x(".//*[@id='userNumber']").setValue("1234568910");
+		});
+
+		step("2 Шаг: Заполнить форму - Дату рождения", () ->
+		{
+			$x(".//*[@id='dateOfBirthInput']").click();
+
+			$x(".//*[@class='react-datepicker__month-select']").$(byText("January")).click();
+			$x(".//*[@class='react-datepicker__year-select']").$(byText("1900")).click();
+			$x(".//*[@class='react-datepicker__day react-datepicker__day--001']").click();
+		});
+
+		step("2 Шаг: Заполнить форму - Предмет / Область знаний/работы", () ->
+		{
+			$x(".//*[@id='subjectsInput']").setValue("English").pressEnter();
+		});
+
+		step("2 Шаг: Заполнить форму - Хобби", () ->
+		{
+			$x(".//*[@id='hobbiesWrapper']").$(byText("Sports")).click();
+		});
+
+		step("2 Шаг: Заполнить форму - Загрузить/прикрепить файл в форму", () ->
+		{
+			$x(".//*[@id='uploadPicture']").uploadFromClasspath("sampleFile1.jpeg");
+		});
+
+		step("2 Шаг: Заполнить форму - Адрес", () ->
+		{
+			$x(".//*[@id='currentAddress']").setValue("Russia, Moscow 1");
+		});
+
+		step("2 Шаг: Заполнить форму - Штат", () ->
+		{
+			$x(".//*[@class=' css-1wa3eu0-placeholder']").click();
+			$x(".//*[@id='stateCity-wrapper']").$(byText("Rajasthan")).click();
+		});
+
+		step("2 Шаг: Заполнить форму - Город", () ->
+		{
+			$x(".//*[@class=' css-1wa3eu0-placeholder']").click();
+			$x(".//*[@id='stateCity-wrapper']").$(byText("Jaiselmer")).click();
+			$x(".//*[@id='submit']").click();
+		});
+
+
+		// 3 Шаг: Проверить данные заполненной формы
+		step("3 Шаг: Проверить данные заполненной формы - наличие подтверждающей фразы 'Thanks for submitting the form'", () -> {
+			$x(".//*[@id='example-modal-sizes-title-lg']").shouldHave(text("Thanks for submitting the form"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Имя и Фамилия - 'Mark Petrov'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(text("Student Name"),
+					text("Mark Petrov"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Электронная почта - 'MarkPetrov@mail.com'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Student Email"), text("MarkPetrov@mail.com"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Пол - 'Male'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Gender"), text("Male"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Телефон - '1234568910'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Mobile"), text("1234568910"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Дата рождения - '01 January,1900'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Date of Birth"),
+					text("01 January,1900"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Предмет / Область знаний/работы  - 'English'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Subjects"),
+					text("English"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Хобби - 'Sports'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Hobbies"),
+					text("Sports"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Picture - соответствует загруженной с названием 'sampleFile1.jpeg'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Picture"),
+					text("sampleFile1.jpeg"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Адрес - 'Russia, Moscow 1'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("Address"),
+					text("Russia, Moscow 1"));
+		});
+
+		step("3 Шаг: Проверить данные заполненной формы - Штат и Город - 'Rajasthan Jaiselmer'", () -> {
+			$x(".//*[@class='table table-dark table-striped table-bordered table-hover']").shouldHave(
+					text("State and City"),
+					text("Rajasthan Jaiselmern"));
+		});
+
+		//	УСПЕШНО !!!
 	}
 }

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sampleFile1.jpeg" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoFormTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PRACTIC" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PRACTIC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PRACTIC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +76,8 @@
   "keyToString": {
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
+    "Gradle.PRACTIC [allureReport].executor": "Run",
+    "Gradle.PRACTIC [allureServe].executor": "Run",
     "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
     "JUnit.DemoQaComAutoForm.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
@@ -72,7 +107,51 @@
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java\SelenideTests\Lesson3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.PRACTIC [allureServe]">
+    <configuration name="PRACTIC [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PRACTIC [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="DemoQaComAutoForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
@@ -104,38 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelenideTests.Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson3.FindInGitHubSelenideWikiSoftAssertionsJUnit5" />
-      <option name="METHOD_NAME" value="OpenGitHubPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindInGitHubSolutionsWithHover.OpenGitHubPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson4_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelenideTests.Lesson4" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson4_1.FindInGitHubSolutionsWithHover" />
-      <option name="METHOD_NAME" value="OpenGitHubPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HerokuappDragAndDrop.DragAndDrops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
@@ -154,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PRACTIC [allureServe]" />
         <item itemvalue="JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest" />
+        <item itemvalue="Gradle.PRACTIC [allureReport]" />
         <item itemvalue="JUnit.DemoQaComAutoForm" />
         <item itemvalue="JUnit.HerokuappDragAndDrop.DragAndDrops" />
-        <item itemvalue="JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage" />
-        <item itemvalue="JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +218,20 @@
       <option name="presentableId" value="Default" />
       <updated>1727272013003</updated>
     </task>
+    <task id="LOCAL-00001" summary="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)">
+      <option name="closed" value="true" />
+      <created>1727358907377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727358907378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
