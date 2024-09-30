@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ усовершенствовал поиск страницы результатов (теперь можно быть уверенным, что Каждой строке соответствует Своя информация)">
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelenideTests/Lesson7/DemoQaComAutoForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,12 +156,12 @@
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson7.*" />
+          <option name="PATTERN" value="SelenideTests.Lesson7and15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SelenideTests.Lesson7" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7.DemoQaComAutoForm" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7and15.DemoQaComAutoForm" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,12 +171,12 @@
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson7.*" />
+          <option name="PATTERN" value="SelenideTests.Lesson7and15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SelenideTests.Lesson7" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7.DemoQaComAutoForm" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7and15.DemoQaComAutoForm" />
       <option name="METHOD_NAME" value="DemoQaComAutoFormTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -203,8 +202,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PRACTIC [allureServe]" />
-        <item itemvalue="JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest" />
         <item itemvalue="Gradle.PRACTIC [allureReport]" />
+        <item itemvalue="JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest" />
         <item itemvalue="JUnit.DemoQaComAutoForm" />
         <item itemvalue="JUnit.HerokuappDragAndDrop.DragAndDrops" />
       </list>
@@ -235,13 +234,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727448165636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;">
+      <option name="closed" value="true" />
+      <created>1727448249231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727448249231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)" />
     <MESSAGE value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ усовершенствовал поиск страницы результатов (теперь можно быть уверенным, что Каждой строке соответствует Своя информация)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ усовершенствовал поиск страницы результатов (теперь можно быть уверенным, что Каждой строке соответствует Своя информация)" />
+    <MESSAGE value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

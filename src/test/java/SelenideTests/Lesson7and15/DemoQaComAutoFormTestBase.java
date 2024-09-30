@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class DemoQaComAutoFormTestBase {
 
-	public static final String website = "https://demoqa.com/automation-practice-form";
+	public static final String website = "https://demoqa.com/";
 
 	@BeforeEach
 	public void TestBase() {
