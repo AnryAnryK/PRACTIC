@@ -17,14 +17,14 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 	@Description("Успешный Автотест на проверку заполнения формы https://demoqa.com/automation-practice-form с Детализированным Отчётом")
 	@Owner("Калинченко Андрей Дмитриевич")
 
-	//	УСПЕШНО !!!
+	//	УСПЕШНО !!! (получен ожидаемый результат)
 
 	public void DemoQaComAutoFormWithDetailReportSuccesfullTest() {
 
 		// 1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form
 		step("1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form", () ->
 		{
-			open(website+"automation-practice-form");
+			open(website + "automation-practice-form");
 		});
 
 
@@ -173,7 +173,7 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 					.shouldHave(text("Rajasthan Jaiselmer"));
 		});
 //sleep(99999999);
-		//	УСПЕШНО !!!
+		//	УСПЕШНО !!! (получен ожидаемый результат)
 	}
 
 
@@ -182,11 +182,12 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 	@Owner("Калинченко Андрей Дмитриевич")
 	public void DemoQaComAutoFormWithDetailReportUnsuccesfullTest() {
 
+		//	УСПЕШНО !!! (получен ожидаемый результат)
 
 		// 1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form
 		step("1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form", () ->
 		{
-			open(website+"automation-practice-form");
+			open(website + "automation-practice-form");
 		});
 
 
@@ -331,20 +332,20 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 					.sibling(0)
 					.shouldHave(text("Rajasthan Jaiselmerk")); //сделал намеренную ошибку в проверке Города
 		});
-		sleep(99999999);
-		//	УСПЕШНО !!!
+//		sleep(99999999);
+		//	УСПЕШНО !!! (получен ожидаемый результат)
 	}
 
 	@Test
 	@Description("Успешный Автотест на проверку заполнения формы https://demoqa.com/automation-practice-form без Детализированного Отчёта")
 	@Owner("Калинченко Андрей Дмитриевич")
 
-	//	УСПЕШНО !!!
+	//	УСПЕШНО !!! (получен ожидаемый результат)
 
 	public void DemoQaComAutoFormWithNoDetailReportSuccesfullTest() {
 
 		// 1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form
-		open(website+"automation-practice-form");
+		open(website + "automation-practice-form");
 
 		// 2 Шаг: Заполнить форму
 		$x(".//*[@id='firstName']").setValue("Mark");
@@ -436,19 +437,19 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 				.shouldHave(text("Rajasthan Jaiselmer"));
 
 //sleep(99999999);
-		//	УСПЕШНО !!!
+		//	УСПЕШНО !!! (получен ожидаемый результат)
 	}
 
 	@Test
-	@Description("Успешный Автотест на проверку заполнения формы https://demoqa.com/automation-practice-form без Детализированного Отчёта")
+	@Description("Неуспешный Автотест на проверку заполнения формы https://demoqa.com/automation-practice-form без Детализированного Отчёта")
 	@Owner("Калинченко Андрей Дмитриевич")
 
-	//	УСПЕШНО !!!
+	//	УСПЕШНО !!! (получен ожидаемый результат)
 
 	public void DemoQaComAutoFormWithNoDetailReportUnsuccesfullTest() {
 
 		// 1 Шаг: зайти на сайт https://demoqa.com/automation-practice-form
-		open(website+"automation-practice-form");
+		open(website + "automation-practice-form");
 
 		// 2 Шаг: Заполнить форму
 		$x(".//*[@id='firstName']").setValue("Petrov");
@@ -536,6 +537,6 @@ public class DemoQaComAutoForm extends DemoQaComAutoFormTestBase {
 				.shouldHave(text("Rajasthan Jaiselmerk")); //сделал намеренную ошибку в проверке Города
 
 //sleep(99999999);
-		//	УСПЕШНО !!!
+		//	УСПЕШНО !!! (получен ожидаемый результат)
 	}
 }
