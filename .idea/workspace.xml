@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;">
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/DemoqaCom_project",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -97,6 +99,7 @@
       <recent name="SelenideTests.Lesson3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java" />
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\resources" />
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test" />
     </key>
@@ -107,7 +110,7 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PRACTIC [allureServe]">
+  <component name="RunManager" selected="JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest">
     <configuration name="PRACTIC [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,17 +186,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HerokuappDragAndDrop.DragAndDrops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReqresInSingleUserTest.SingleUserApiSucessfullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson4_2.*" />
+          <option name="PATTERN" value="RestApiTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SelenideTests.Lesson4_2" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson4_2.HerokuappDragAndDrop" />
-      <option name="METHOD_NAME" value="DragAndDrops" />
+      <option name="PACKAGE_NAME" value="RestApiTests" />
+      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
+      <option name="METHOD_NAME" value="SingleUserApiSucessfullTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest" />
         <item itemvalue="Gradle.PRACTIC [allureServe]" />
         <item itemvalue="Gradle.PRACTIC [allureReport]" />
         <item itemvalue="JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest" />
         <item itemvalue="JUnit.DemoQaComAutoForm" />
-        <item itemvalue="JUnit.HerokuappDragAndDrop.DragAndDrops" />
       </list>
     </recent_temporary>
   </component>
@@ -242,14 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727448249231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)">
+      <option name="closed" value="true" />
+      <created>1727786575666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727786575666</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)" />
     <MESSAGE value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ усовершенствовал поиск страницы результатов (теперь можно быть уверенным, что Каждой строке соответствует Своя информация)" />
     <MESSAGE value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;" />
+    <MESSAGE value="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
