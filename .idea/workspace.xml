@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.15 -  Rest Assured (в https://reqres.in/)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +82,8 @@
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
     "JUnit.HerokuappDragAndDrop.DragAndDrops.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -110,7 +111,7 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest">
+  <component name="RunManager" selected="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest">
     <configuration name="PRACTIC [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,32 +156,17 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DemoQaComAutoForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson7and15.*" />
+          <option name="PATTERN" value="RestApiTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SelenideTests.Lesson7" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7and15.DemoQaComAutoForm" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoQaComAutoForm.DemoQaComAutoFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelenideTests.Lesson7and15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SelenideTests.Lesson7" />
-      <option name="MAIN_CLASS_NAME" value="SelenideTests.Lesson7and15.DemoQaComAutoForm" />
-      <option name="METHOD_NAME" value="DemoQaComAutoFormTest" />
+      <option name="PACKAGE_NAME" value="RestApiTests" />
+      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
+      <option name="METHOD_NAME" value="SingleUserApiGivenSucessfullTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,13 +188,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestApiTests" />
+      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
+      <option name="METHOD_NAME" value="SingleUserApiWhithGivenLogsSucessfullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest" />
+        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest" />
         <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest" />
         <item itemvalue="Gradle.PRACTIC [allureServe]" />
         <item itemvalue="Gradle.PRACTIC [allureReport]" />
-        <item itemvalue="JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest" />
-        <item itemvalue="JUnit.DemoQaComAutoForm" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727786575666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2024.10.15 -  Rest Assured (в https://reqres.in/)">
+      <option name="closed" value="true" />
+      <created>1729001556890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729001556890</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,7 +271,8 @@
     <MESSAGE value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ усовершенствовал поиск страницы результатов (теперь можно быть уверенным, что Каждой строке соответствует Своя информация)" />
     <MESSAGE value="2024.09.27 -  +7 урок (DemoQaComAutoForm) +15 урок (Аллюр) _ переназвал папку &quot;7 и 15 уроки&quot;" />
     <MESSAGE value="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.10.01 -  закоммитил //&#9;УСПЕШНО !!! (получен ожидаемый результат)" />
+    <MESSAGE value="2024.10.15 -  Rest Assured (в https://reqres.in/)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.10.15 -  Rest Assured (в https://reqres.in/)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

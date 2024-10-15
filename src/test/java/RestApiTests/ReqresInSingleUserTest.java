@@ -14,9 +14,25 @@ public class ReqresInSingleUserTest {
 //			"last_name: \"Weaver\"}";
 
 	@Test
-	void SingleUserApiSucessfullTest(){
-		get("https://reqres.in/api/users/2")
-		.then()
+	void SingleUserApiWhithGivenSucessfullTest(){
+		given()
+				.when()
+				.get("https://reqres.in/api/users/2")
+				.then()
+				.statusCode(200)
+				.body("data.id", is(2))
+				.body("data.email", is("janet.weaver@reqres.in"))
+				.body("data.first_name", is("Janet"))
+				.body("data.last_name", is("Weaver"));
+
+	}
+	@Test
+	void SingleUserApiWhithGivenAndLogsSucessfullTest(){
+		given()
+				.log().all()
+				.when()
+				.get("https://reqres.in/api/users/2")
+				.then()
 				.statusCode(200)
 				.body("data.id", is(2))
 				.body("data.email", is("janet.weaver@reqres.in"))
