@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokResponse.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +99,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.5908046",
-    "settings.build.tools.auto.reload": "ALL",
+    "settings.build.tools.auto.reload": "SELECTIVE",
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
@@ -285,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729076297212</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;">
+      <option name="closed" value="true" />
+      <created>1729088000628</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729088000628</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,7 +303,8 @@
     <MESSAGE value="2024.10.15 -  Rest Assured (в https://reqres.in/) whith:&#10;Given&#10;GivenAndLogs" />
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/) whith:&#10;assertEquals" />
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)" />
+    <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

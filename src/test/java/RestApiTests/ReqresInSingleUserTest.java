@@ -71,6 +71,8 @@ public class ReqresInSingleUserTest {
 		LombokDataBase LombokModel = new LombokDataBase();
 		LombokModel.setEmail ("eve.holt@reqres.in");
 		LombokModel.setPassword("cityslicka");
+		LombokModel.setFirstName("Janet");
+		LombokModel.setLastName("Weaver");
 
 		LombokResponse lombokResponse =
 		given()
