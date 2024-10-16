@@ -1,5 +1,6 @@
 package RestApiTests;
 
+import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.*;
@@ -13,7 +14,7 @@ public class ReqresInSingleUserTest {
 ///	String data ="{ data: { id: 2, email: "janet.weaver@reqres.in", first_name: "Janet", last_name: "Weaver", avatar: "https://reqres.in/img/faces/2-image.jpg" }, support: { url: "https://reqres.in/#support-heading", text: "To keep ReqRes free, contributions towards server costs are appreciated!" } }";
 
 	@Test
-	void SingleUserApiWhithGivenSucessfullTest(){
+	void SingleUserApiWhithGivenGETResponseSucessfullTest(){
 		given()
 				.when()
 				.get("https://reqres.in/api/users/2")
@@ -26,9 +27,10 @@ public class ReqresInSingleUserTest {
 
 	}
 	@Test
-	void SingleUserApiWhithGivenAndLogsSucessfullTest(){
+	void SingleUserApiWhithGivenAndLogsGETResponseBestPracticeSuccessfulTest(){
 		Integer expectedID = 2;
-		Integer actualID = given()
+		Integer actualID =
+		given()
 				.log().all()
 				.when()
 				.get("https://reqres.in/api/users/2")
@@ -43,5 +45,18 @@ public class ReqresInSingleUserTest {
 				assertEquals(expectedID, actualID);
 
 	}
-	
+	@Test
+	void SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest(){
+
+		String data = "{ \"email\": \"eve.holt@reqres.in\", \"password\": \"cityslicka\" }";
+				given()
+						.log().all()
+						.contentType(ContentType.JSON)
+						.body(data)
+						.when()
+						.post("https://reqres.in/api/login")
+						.then()
+						.log().all()
+						.statusCode(200);
+	}
 }
