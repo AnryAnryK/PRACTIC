@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.16 -  Rest Assured (в https://reqres.in/) whith:&#10;assertEquals">
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +88,7 @@
     "JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
@@ -97,7 +101,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.5908046",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -116,7 +121,7 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest">
+  <component name="RunManager" selected="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest">
     <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
@@ -128,6 +133,22 @@
       <option name="PACKAGE_NAME" value="RestApiTests" />
       <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
       <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestApiTests" />
+      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
+      <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,29 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestApiTests" />
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <option name="METHOD_NAME" value="SingleUserApiWhithGivenLogsSucessfullTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest" />
         <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest" />
         <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest" />
         <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest" />
         <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest" />
-        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729072884716</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)">
+      <option name="closed" value="true" />
+      <created>1729076297212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729076297212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -283,7 +296,8 @@
     <MESSAGE value="2024.10.15 -  Rest Assured (в https://reqres.in/)" />
     <MESSAGE value="2024.10.15 -  Rest Assured (в https://reqres.in/) whith:&#10;Given&#10;GivenAndLogs" />
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/) whith:&#10;assertEquals" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.10.16 -  Rest Assured (в https://reqres.in/) whith:&#10;assertEquals" />
+    <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

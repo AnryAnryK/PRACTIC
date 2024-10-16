@@ -1,6 +1,7 @@
 plugins {
     id("java")
     id("io.qameta.allure") version "2.12.0" //для Аллюр- отчётов
+    id("io.freefair.lombok") version "8.10.2" //для тестирования Rest Api - Lombok Model
 }
 
 
@@ -37,6 +38,11 @@ dependencies {
     testImplementation("io.qameta.allure:allure-selenide:2.19.0") //для Аллюр- отчётов
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.0") //для Аллюр- отчётов
     testImplementation("io.rest-assured:rest-assured:5.5.0") //для тестирования Rest Api
+    compileOnly("org.projectlombok:lombok:1.18.34") //для тестирования Rest Api - Lombok Model
+    testImplementation("org.assertj:assertj-core:3.24.2") //для тестирования Rest Api
+    testImplementation("com.fasterxml.jackson.core:jackson-databind:2.14.2") //для тестирования Rest Api - Lombok Model
+    testImplementation("org.slf4j:slf4j-simple:slf4jVersion") // фиксит / убирает "лишние" строки / символы из терминала после запуска кода
+
 }
 
 tasks.test {
