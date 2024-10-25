@@ -88,4 +88,9 @@ public class ReqresInSingleUserTest {
 		assertThat(lombokResponse.getToken()).isEqualTo("QpwL5tke4Pnpja7X4");
 
 	}
-}
+
+
+	}
+
+
+

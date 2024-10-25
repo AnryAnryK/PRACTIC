@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ToDomvcTests/ToDomvcFindTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserLombokModelTest/LombokDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ReqresInSingleUserTest.executor": "Run",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "Gradle.PRACTIC [allureReport].executor": "Run",
@@ -83,6 +84,10 @@
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
     "JUnit.HerokuappDragAndDrop.DragAndDrops.executor": "Run",
+    "JUnit.OzonFindTest.YandexFindSniffetsTest.executor": "Run",
+    "JUnit.OzonFindTest.executor": "Run",
+    "JUnit.RamblerFindTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.DogStatus.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest.executor": "Run",
@@ -91,12 +96,15 @@
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor": "Run",
+    "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
+    "JUnit.ToDomvcFindTest.executor": "Run",
+    "JUnit.YandexFindTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.5908046",
     "settings.build.tools.auto.reload": "SELECTIVE",
@@ -119,8 +127,9 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest">
-    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ToDomvcFindTest">
+    <configuration name="ReqresInSingleUserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
@@ -128,73 +137,74 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApiTests" />
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PRACTIC [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ToDomvcFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToDomvcTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ToDomvcTests" />
+      <option name="MAIN_CLASS_NAME" value="ToDomvcTests.ToDomvcFindTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDomvcFindTest.TodomvcFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToDomvcTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ToDomvcTests" />
+      <option name="MAIN_CLASS_NAME" value="ToDomvcTests.ToDomvcFindTest" />
+      <option name="METHOD_NAME" value="TodomvcFindTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDomvcFindTest.YandexFindSniffetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestApiTests.*" />
+          <option name="PATTERN" value="ToDomvcTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestApiTests" />
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestApiTests" />
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestApiTests" />
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndLogsSucessfullTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestApiTests" />
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <option name="METHOD_NAME" value="SingleUserApiWhithGivenAndSomeLogsSucessfullTest" />
+      <option name="PACKAGE_NAME" value="ToDomvcTests" />
+      <option name="MAIN_CLASS_NAME" value="ToDomvcTests.ToDomvcFindTest" />
+      <option name="METHOD_NAME" value="YandexFindSniffetsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest" />
-        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest" />
-        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest" />
-        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest" />
-        <item itemvalue="JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest" />
+        <item itemvalue="JUnit.ToDomvcFindTest" />
+        <item itemvalue="JUnit.ToDomvcFindTest.TodomvcFindTest" />
+        <item itemvalue="Gradle.PRACTIC [allureServe]" />
+        <item itemvalue="JUnit.ToDomvcFindTest.YandexFindSniffetsTest" />
+        <item itemvalue="Application.ReqresInSingleUserTest" />
       </list>
     </recent_temporary>
   </component>
