@@ -1,6 +1,7 @@
 package ToDomvcTests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,9 @@ public class ToDomvcFindTest {
 	public void TodomvcFindTest(){
 		Configuration.pageLoadStrategy = "eager";
 		Configuration.browserSize = "1920x1080";
+		Selenide.clearBrowserCookies(); // очистить кукис
+		Selenide.clearBrowserLocalStorage(); // очистить локал сториез
+		executeAsyncJavaScript("sessionStorage.clear();"); // очистить сессион сториез
 		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
 		step("1 Шаг: зайти на сайт https://todomvc.com/", () ->

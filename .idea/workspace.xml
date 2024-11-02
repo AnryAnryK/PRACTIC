@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ToDomvcTests/ToDomvcFindTest.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Yandex/YandexPageFindsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestApiTests/ReqresInSingleUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ToDomvcTests/ToDomvcFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToDomvcTests/ToDomvcFindTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +99,7 @@
     "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
     "JUnit.ToDomvcFindTest.executor": "Run",
     "JUnit.YandexFindTest.executor": "Run",
+    "JUnit.YandexPageFindsTest.YandexPageFinds.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -121,26 +122,15 @@
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java" />
+      <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\Yandex" />
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java\SelenideTests\Lesson3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToDomvcFindTest">
-    <configuration name="ReqresInSingleUserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestApiTests.ReqresInSingleUserTest" />
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.YandexPageFindsTest.YandexPageFinds">
     <configuration name="PRACTIC [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -210,13 +200,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YandexPageFindsTest.YandexPageFinds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Yandex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Yandex" />
+      <option name="MAIN_CLASS_NAME" value="Yandex.YandexPageFindsTest" />
+      <option name="METHOD_NAME" value="YandexPageFinds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToDomvcFindTest" />
+        <item itemvalue="JUnit.YandexPageFindsTest.YandexPageFinds" />
         <item itemvalue="JUnit.ToDomvcFindTest.TodomvcFindTest" />
+        <item itemvalue="JUnit.ToDomvcFindTest" />
         <item itemvalue="Gradle.PRACTIC [allureServe]" />
         <item itemvalue="JUnit.ToDomvcFindTest.YandexFindSniffetsTest" />
-        <item itemvalue="Application.ReqresInSingleUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729088000628</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
+      <option name="closed" value="true" />
+      <created>1729871188214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729871188214</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,7 +328,8 @@
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/) whith:&#10;assertEquals" />
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)" />
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;" />
+    <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
