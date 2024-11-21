@@ -41,7 +41,7 @@ dependencies {
     compileOnly("org.projectlombok:lombok:1.18.34") //для тестирования Rest Api - Lombok Model
     testImplementation("org.assertj:assertj-core:3.24.2") //для тестирования Rest Api
     testImplementation("com.fasterxml.jackson.core:jackson-databind:2.14.2") //для тестирования Rest Api - Lombok Model
-    testImplementation("org.slf4j:slf4j-simple:slf4jVersion") // фиксит / убирает "лишние" строки / символы из терминала после запуска кода
+        // testImplementation("org.slf4j:slf4j-simple:slf4jVersion") // фиксит / убирает "лишние" строки / символы из терминала после запуска кода
 
 }
 

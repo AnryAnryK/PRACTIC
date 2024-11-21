@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Yandex/YandexPageFindsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/DemoqaComSwaggerDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/DemoqaComSwaggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GettersSetters/Cats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ToDomvcTests/ToDomvcFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToDomvcTests/ToDomvcFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +77,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Collections.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
+    "Application.StreamApi.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "Gradle.PRACTIC [allureReport].executor": "Run",
@@ -80,6 +89,10 @@
     "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
     "JUnit.DemoQaComAutoForm.executor": "Run",
     "JUnit.DemoQaComAutoForm2.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETLombokTest.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
@@ -100,16 +113,19 @@
     "JUnit.ToDomvcFindTest.executor": "Run",
     "JUnit.YandexFindTest.executor": "Run",
     "JUnit.YandexPageFindsTest.YandexPageFinds.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5908046",
     "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -130,87 +146,84 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.YandexPageFindsTest.YandexPageFinds">
-    <configuration name="PRACTIC [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Application.StreamApi">
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.Collections" />
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApi" />
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;API.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ToDomvcFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ToDomvcTests.*" />
+          <option name="PATTERN" value="API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ToDomvcTests" />
-      <option name="MAIN_CLASS_NAME" value="ToDomvcTests.ToDomvcFindTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDomvcFindTest.TodomvcFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToDomvcTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ToDomvcTests" />
-      <option name="MAIN_CLASS_NAME" value="ToDomvcTests.ToDomvcFindTest" />
-      <option name="METHOD_NAME" value="TodomvcFindTest" />
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.DemoqaComSwaggerTest" />
+      <option name="METHOD_NAME" value="DemoqaComSwaggerGETTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDomvcFindTest.YandexFindSniffetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoqaComSwaggerTest.ReqresinTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ToDomvcTests.*" />
+          <option name="PATTERN" value="API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ToDomvcTests" />
-      <option name="MAIN_CLASS_NAME" value="ToDomvcTests.ToDomvcFindTest" />
-      <option name="METHOD_NAME" value="YandexFindSniffetsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YandexPageFindsTest.YandexPageFinds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Yandex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Yandex" />
-      <option name="MAIN_CLASS_NAME" value="Yandex.YandexPageFindsTest" />
-      <option name="METHOD_NAME" value="YandexPageFinds" />
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.DemoqaComSwaggerTest" />
+      <option name="METHOD_NAME" value="ReqresinTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.YandexPageFindsTest.YandexPageFinds" />
-        <item itemvalue="JUnit.ToDomvcFindTest.TodomvcFindTest" />
-        <item itemvalue="JUnit.ToDomvcFindTest" />
-        <item itemvalue="Gradle.PRACTIC [allureServe]" />
-        <item itemvalue="JUnit.ToDomvcFindTest.YandexFindSniffetsTest" />
+        <item itemvalue="Application.StreamApi" />
+        <item itemvalue="Application.Collections" />
+        <item itemvalue="JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" />
+        <item itemvalue="Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" />
+        <item itemvalue="JUnit.DemoqaComSwaggerTest.ReqresinTest2" />
       </list>
     </recent_temporary>
   </component>
