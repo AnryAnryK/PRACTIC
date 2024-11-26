@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/DemoqaComSwaggerDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/DemoqaComSwaggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GettersSetters/Cats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -78,6 +78,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Collections.executor": "Run",
+    "Application.Contact.executor": "Run",
+    "Application.ErrorsAndExceptions.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
     "Application.StreamApi.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -86,6 +89,8 @@
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "Gradle.PRACTIC [allureReport].executor": "Run",
     "Gradle.PRACTIC [allureServe].executor": "Run",
+    "JUnit.ContactTest.executor": "Run",
+    "JUnit.ContactTest.test1.executor": "Run",
     "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
     "JUnit.DemoQaComAutoForm.executor": "Run",
     "JUnit.DemoQaComAutoForm2.executor": "Run",
@@ -117,6 +122,8 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/java",
@@ -142,17 +149,23 @@
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\Yandex" />
       <recent name="C:\Users\User\IdeaProjects\PRACTIC\src\test\java\SelenideTests\Lesson3" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="HashcodeEquals" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamApi">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.Collections" />
+  <component name="RunManager" selected="JUnit.ContactTest">
+    <configuration name="Contact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashcodeEquals.Contact" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsJava.*" />
+          <option name="PATTERN" value="HashcodeEquals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApi" />
+    <configuration name="ErrorsAndExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ErrorsAndExceptions.ErrorsAndExceptions" />
       <module name="PRACTIC.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="PRACTIC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamApi.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,57 +193,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;API.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.*" />
+          <option name="PATTERN" value="HashcodeEquals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.DemoqaComSwaggerTest" />
-      <option name="METHOD_NAME" value="DemoqaComSwaggerGETTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="HashcodeEquals" />
+      <option name="MAIN_CLASS_NAME" value="HashcodeEquals.ContactTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoqaComSwaggerTest.ReqresinTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.*" />
+          <option name="PATTERN" value="HashcodeEquals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.DemoqaComSwaggerTest" />
-      <option name="METHOD_NAME" value="ReqresinTest2" />
+      <option name="PACKAGE_NAME" value="HashcodeEquals" />
+      <option name="MAIN_CLASS_NAME" value="HashcodeEquals.ContactTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamApi" />
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" />
-        <item itemvalue="Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest" />
-        <item itemvalue="JUnit.DemoqaComSwaggerTest.ReqresinTest2" />
+        <item itemvalue="JUnit.ContactTest" />
+        <item itemvalue="JUnit.ContactTest.test1" />
+        <item itemvalue="Application.Contact" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ErrorsAndExceptions" />
       </list>
     </recent_temporary>
   </component>
@@ -343,16 +338,5 @@
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;" />
     <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
     <option name="LAST_COMMIT_MESSAGE" value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
