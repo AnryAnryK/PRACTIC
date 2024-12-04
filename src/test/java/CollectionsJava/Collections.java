@@ -19,6 +19,8 @@ public class Collections {
 		fruits2.put("виноград", 8);
 		fruits2.put("яблоко", 7);
 		System.out.println(fruits2);
+
+		
 		
 String [][] cats = new String [][]{{"1", "2", "3", "4", "5",}, {"1", "2", "3", "4", "5"}};
 		System.out.println(Arrays.toString(new String[]{cats[0][2]}));;

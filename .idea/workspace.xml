@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Override/Override.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Overload/Overload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CollectionsJava/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Override/Override.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Override/Override.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     "Application.Contact.executor": "Run",
     "Application.ErrorsAndExceptions.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Overload.executor": "Run",
     "Application.Override.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
     "Application.StreamApi.executor": "Run",
@@ -130,7 +134,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5908046",
     "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -157,7 +161,7 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Override">
+  <component name="RunManager" selected="Application.Overload">
     <configuration name="Contact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashcodeEquals.Contact" />
       <module name="PRACTIC.test" />
@@ -171,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="PRACTIC.main" />
+    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Overload.Overload" />
+      <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Overload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Overload" />
         <item itemvalue="Application.Override" />
-        <item itemvalue="JUnit.ContactTest.test1" />
         <item itemvalue="JUnit.ContactTest" />
+        <item itemvalue="JUnit.ContactTest.test1" />
         <item itemvalue="Application.Contact" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
