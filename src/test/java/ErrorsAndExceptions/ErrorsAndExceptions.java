@@ -16,6 +16,8 @@ public class ErrorsAndExceptions {
 			check.push2();
 		} catch (Exception e) {
 		}
-		System.out.println(check);
+		finally {
+			System.out.println(check);
+		}
 	}
 }

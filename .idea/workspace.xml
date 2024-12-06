@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)">
       <change beforePath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729871188214</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)">
+      <option name="closed" value="true" />
+      <created>1733476552455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733476552455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,6 +347,7 @@
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;нашёл БАГ на ресурсе !&#10;&#10;если изменить данные (мейл и/или пароль) в String data = &quot;{ \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;, \&quot;password\&quot;: \&quot;cityslicka\&quot; }&quot;;&#10;&#10;то тесты всё равно пройдут как УСПЕШНЫЕ (что неверно !)" />
     <MESSAGE value="2024.10.16 -  Rest Assured (в https://reqres.in/):&#10;&#10;добавил тесты по Модели &quot;Lombok&quot;" />
     <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
+    <MESSAGE value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
   </component>
 </project>
