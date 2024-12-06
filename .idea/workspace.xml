@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Overload/Overload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CollectionsJava/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/Collections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Override/Override.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Override/Override.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,68 +69,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Collections.executor": "Run",
-    "Application.Contact.executor": "Run",
-    "Application.ErrorsAndExceptions.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Overload.executor": "Run",
-    "Application.Override.executor": "Run",
-    "Application.ReqresInSingleUserTest.executor": "Run",
-    "Application.StreamApi.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
-    "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
-    "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
-    "Gradle.PRACTIC [allureReport].executor": "Run",
-    "Gradle.PRACTIC [allureServe].executor": "Run",
-    "JUnit.ContactTest.executor": "Run",
-    "JUnit.ContactTest.test1.executor": "Run",
-    "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
-    "JUnit.DemoQaComAutoForm.executor": "Run",
-    "JUnit.DemoQaComAutoForm2.executor": "Run",
-    "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETLombokTest.executor": "Run",
-    "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
-    "JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor": "Run",
-    "JUnit.DemoqaComSwaggerTest.executor": "Run",
-    "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
-    "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
-    "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
-    "JUnit.HerokuappDragAndDrop.DragAndDrops.executor": "Run",
-    "JUnit.OzonFindTest.YandexFindSniffetsTest.executor": "Run",
-    "JUnit.OzonFindTest.executor": "Run",
-    "JUnit.RamblerFindTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.DogStatus.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
-    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor": "Run",
-    "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
-    "JUnit.ToDomvcFindTest.executor": "Run",
-    "JUnit.YandexFindTest.executor": "Run",
-    "JUnit.YandexPageFindsTest.YandexPageFinds.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/java",
-    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5908046",
-    "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Collections.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Contact.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ErrorsAndExceptions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overload.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Override.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReqresInSingleUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamApi.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PRACTIC [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PRACTIC [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContactTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoQaComAutoForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoQaComAutoForm2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETLombokTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoqaComSwaggerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HerokuappDragAndDrop.DragAndDrops.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OzonFindTest.YandexFindSniffetsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OzonFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RamblerFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.DogStatus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ToDomvcFindTest.TodomvcFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ToDomvcFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.YandexFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.YandexPageFindsTest.YandexPageFinds.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/PRACTIC/src/test/java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5908046&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SelenideTests.Lesson3" />
@@ -161,13 +155,13 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Overload">
-    <configuration name="Contact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashcodeEquals.Contact" />
+  <component name="RunManager" selected="Application.ErrorsAndExceptions">
+    <configuration name="ErrorsAndExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ErrorsAndExceptions.ErrorsAndExceptions" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashcodeEquals.*" />
+          <option name="PATTERN" value="ErrorsAndExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ErrorsAndExceptions" />
         <item itemvalue="Application.Overload" />
         <item itemvalue="Application.Override" />
         <item itemvalue="JUnit.ContactTest" />
         <item itemvalue="JUnit.ContactTest.test1" />
-        <item itemvalue="Application.Contact" />
       </list>
     </recent_temporary>
   </component>
