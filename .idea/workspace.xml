@@ -7,6 +7,7 @@
     <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ErrorsAndExceptions/ErrorsAndExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,7 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ErrorsAndExceptions">
+  <component name="RunManager" selected="JUnit.ContactTest.test1">
     <configuration name="ErrorsAndExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ErrorsAndExceptions.ErrorsAndExceptions" />
       <module name="PRACTIC.test" />
@@ -229,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactTest.test1" />
+        <item itemvalue="JUnit.ContactTest" />
         <item itemvalue="Application.ErrorsAndExceptions" />
         <item itemvalue="Application.Overload" />
         <item itemvalue="Application.Override" />
-        <item itemvalue="JUnit.ContactTest" />
-        <item itemvalue="JUnit.ContactTest.test1" />
       </list>
     </recent_temporary>
   </component>

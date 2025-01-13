@@ -2,6 +2,8 @@ package ErrorsAndExceptions;
 
 public class ErrorsAndExceptions {
 
+
+
 	public static void main(String[] args) {
 		ErrorsAndExceptions errorsAndExceptions = new ErrorsAndExceptions();
 		errorsAndExceptions.testPush();
@@ -16,6 +18,7 @@ public class ErrorsAndExceptions {
 		} finally {
 			System.out.println(check);
 //		while (true);  // с этим блоком Программа будет Работать вечно )))
+
 		}
 	}
 }
