@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/Swimmable.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractClass/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractClass/CarAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractClass/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Interface/Duck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +78,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Car.executor": "Run",
     "Application.Collections.executor": "Run",
     "Application.Contact.executor": "Run",
     "Application.Duck.executor": "Run",
@@ -84,6 +88,7 @@
     "Application.Overload.executor": "Run",
     "Application.Override.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
+    "Application.Sedan.executor": "Run",
     "Application.StreamApi.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
@@ -100,6 +105,7 @@
     "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
     "JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor": "Run",
     "JUnit.DemoqaComSwaggerTest.executor": "Run",
+    "JUnit.Duck.executor": "Run",
     "JUnit.Duck.swim.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
@@ -117,6 +123,8 @@
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor": "Run",
+    "JUnit.Sedan.executor": "Run",
+    "JUnit.Sedan.gas.executor": "Run",
     "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
     "JUnit.ToDomvcFindTest.executor": "Run",
     "JUnit.YandexFindTest.executor": "Run",
@@ -162,13 +170,13 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Duck">
-    <configuration name="Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.Duck" />
+  <component name="RunManager" selected="JUnit.Array">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractClass.Car" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.*" />
+          <option name="PATTERN" value="AbstractClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.Fish" />
-      <module name="PRACTIC.test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="PRACTIC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,48 +197,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sedan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractClass.Sedan" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashcodeEquals.*" />
+          <option name="PATTERN" value="AbstractClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HashcodeEquals" />
-      <option name="MAIN_CLASS_NAME" value="HashcodeEquals.ContactTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.Array" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sedan.gas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashcodeEquals.*" />
+          <option name="PATTERN" value="AbstractClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HashcodeEquals" />
-      <option name="MAIN_CLASS_NAME" value="HashcodeEquals.ContactTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Duck.swim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Interface" />
-      <option name="MAIN_CLASS_NAME" value="Interface.Duck" />
-      <option name="METHOD_NAME" value="swim" />
+      <option name="PACKAGE_NAME" value="AbstractClass" />
+      <option name="MAIN_CLASS_NAME" value="AbstractClass.Sedan" />
+      <option name="METHOD_NAME" value="gas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Duck" />
-        <item itemvalue="Application.Fish" />
-        <item itemvalue="JUnit.Duck.swim" />
-        <item itemvalue="JUnit.ContactTest.test1" />
-        <item itemvalue="JUnit.ContactTest" />
+        <item itemvalue="JUnit.Array" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Sedan" />
+        <item itemvalue="JUnit.Sedan.gas" />
+        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733477030731</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable">
+      <option name="closed" value="true" />
+      <created>1737361958532</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737361958532</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -367,6 +380,7 @@
     <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
     <MESSAGE value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
+    <MESSAGE value="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable" />
   </component>
 </project>
