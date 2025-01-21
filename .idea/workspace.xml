@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/ArrayMain.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/LinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/QueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/SetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +79,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListExample.executor": "Run",
     "Application.ArrayMain.executor": "Run",
     "Application.Arrays.Main.executor": "Run",
     "Application.Car.executor": "Run",
@@ -83,11 +88,17 @@
     "Application.Duck.executor": "Run",
     "Application.ErrorsAndExceptions.executor": "Run",
     "Application.Fish.executor": "Run",
+    "Application.HashSetExample.executor": "Run",
+    "Application.LinkedListExample.executor": "Run",
+    "Application.ListExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
     "Application.Overload.executor": "Run",
     "Application.Override.executor": "Run",
+    "Application.QueueExample.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
     "Application.Sedan.executor": "Run",
+    "Application.SetExample.executor": "Run",
     "Application.StreamApi.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
@@ -168,17 +179,18 @@
       <recent name="HashcodeEquals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CollectionsJava" />
       <recent name="Arrays" />
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayMain">
-    <configuration name="ArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayMain" />
+  <component name="RunManager" selected="Application.HashSetExample">
+    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.ArrayListExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="PRACTIC.main" />
+    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.HashSetExample" />
+      <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,59 +211,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.LinkedListExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.Array" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.MapExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayMain" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array.Decada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.QueueExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.Array" />
-      <option name="METHOD_NAME" value="Decada" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayMain" />
-        <item itemvalue="JUnit.Array" />
-        <item itemvalue="JUnit.Array.Decada" />
-        <item itemvalue="JUnit.ArrayMain" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HashSetExample" />
+        <item itemvalue="Application.LinkedListExample" />
+        <item itemvalue="Application.ArrayListExample" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737378315278</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
+      <option name="closed" value="true" />
+      <created>1737448421151</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737448421151</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -394,6 +407,7 @@
     <MESSAGE value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable" />
     <MESSAGE value="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)" />
+    <MESSAGE value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
   </component>
 </project>
