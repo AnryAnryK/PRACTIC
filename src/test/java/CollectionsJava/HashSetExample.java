@@ -17,9 +17,11 @@ public class HashSetExample {
 		set.add("rose");
 
 		System.out.println("Hash set: " + set);
+		System.out.println("Содержит rose: "  + set.contains("rose"));
 
 		set.remove("lily");
 
 		System.out.println("Hash set: " + set);
+		System.out.println("Размер множества set " + set.size());
 	}
 }

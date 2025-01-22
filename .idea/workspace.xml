@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/LinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/SetExample.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/TreeSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DuckSwim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Swimmable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,6 @@
       <list>
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,27 +81,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ArrayListExample.executor": "Run",
-    "Application.ArrayMain.executor": "Run",
-    "Application.Arrays.Main.executor": "Run",
-    "Application.Car.executor": "Run",
     "Application.Collections.executor": "Run",
     "Application.Contact.executor": "Run",
-    "Application.Duck.executor": "Run",
     "Application.ErrorsAndExceptions.executor": "Run",
-    "Application.Fish.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
     "Application.HashSetExample.executor": "Run",
-    "Application.LinkedListExample.executor": "Run",
-    "Application.ListExample.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.MapExample.executor": "Run",
     "Application.Overload.executor": "Run",
     "Application.Override.executor": "Run",
-    "Application.QueueExample.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
-    "Application.Sedan.executor": "Run",
-    "Application.SetExample.executor": "Run",
     "Application.StreamApi.executor": "Run",
+    "Application.TreeSetExample.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
@@ -107,7 +99,6 @@
     "Gradle.PRACTIC [allureReport].executor": "Run",
     "Gradle.PRACTIC [allureServe].executor": "Run",
     "JUnit.Array.executor": "Run",
-    "JUnit.Array2.executor": "Run",
     "JUnit.ContactTest.executor": "Run",
     "JUnit.ContactTest.test1.executor": "Run",
     "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
@@ -117,8 +108,6 @@
     "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
     "JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor": "Run",
     "JUnit.DemoqaComSwaggerTest.executor": "Run",
-    "JUnit.Duck.executor": "Run",
-    "JUnit.Duck.swim.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
@@ -135,8 +124,6 @@
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor": "Run",
-    "JUnit.Sedan.executor": "Run",
-    "JUnit.Sedan.gas.executor": "Run",
     "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
     "JUnit.ToDomvcFindTest.executor": "Run",
     "JUnit.YandexFindTest.executor": "Run",
@@ -180,13 +167,12 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="CollectionsJava" />
-      <recent name="Arrays" />
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetExample">
-    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.ArrayListExample" />
+  <component name="RunManager" selected="Application.StreamApi">
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.HashMapExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +197,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.LinkedListExample" />
+    <configuration name="StreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApi" />
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.TreeSetExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
@@ -224,39 +223,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.MapExample" />
+    <configuration name="Array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsJava.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.QueueExample" />
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CollectionsJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.Array" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamApi" />
+        <item itemvalue="Application.HashMapExample" />
+        <item itemvalue="Application.TreeSetExample" />
         <item itemvalue="Application.HashSetExample" />
-        <item itemvalue="Application.LinkedListExample" />
-        <item itemvalue="Application.ArrayListExample" />
-        <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.QueueExample" />
+        <item itemvalue="JUnit.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -365,31 +353,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733477030731</updated>
     </task>
-    <task id="LOCAL-00013" summary="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable">
-      <option name="closed" value="true" />
-      <created>1737361958532</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1737361958532</updated>
-    </task>
-    <task id="LOCAL-00014" summary="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)">
-      <option name="closed" value="true" />
-      <created>1737378315278</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1737378315278</updated>
-    </task>
-    <task id="LOCAL-00015" summary="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
-      <option name="closed" value="true" />
-      <created>1737448421151</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1737448421151</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,9 +369,6 @@
     <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
     <MESSAGE value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
-    <MESSAGE value="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable" />
-    <MESSAGE value="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)" />
-    <MESSAGE value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
   </component>
 </project>
