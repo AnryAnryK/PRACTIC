@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/TreeSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DuckSwim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Swimmable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample,">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApiExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApiSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApiSortedExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HashcodeEquals/ContactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamApi/StreamApi.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +85,8 @@
     "Application.Override.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
     "Application.StreamApi.executor": "Run",
+    "Application.StreamApiExample.executor": "Run",
+    "Application.StreamApiSortedExample.executor": "Run",
     "Application.TreeSetExample.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
@@ -166,11 +162,12 @@
       <recent name="HashcodeEquals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="StreamApi" />
       <recent name="CollectionsJava" />
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamApi">
+  <component name="RunManager" selected="Application.StreamApiSortedExample">
     <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionsJava.HashMapExample" />
       <module name="PRACTIC.test" />
@@ -184,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.HashSetExample" />
+    <configuration name="StreamApiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApiExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsJava.*" />
+          <option name="PATTERN" value="StreamApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,8 +194,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApi" />
+    <configuration name="StreamApiSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApiSimple" />
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApiSortedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApiSortedExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
@@ -223,28 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.Array" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamApi" />
+        <item itemvalue="Application.StreamApiSortedExample" />
+        <item itemvalue="Application.StreamApiExample" />
+        <item itemvalue="Application.StreamApiSimple" />
         <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.TreeSetExample" />
-        <item itemvalue="Application.HashSetExample" />
-        <item itemvalue="JUnit.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733477030731</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample,">
+      <option name="closed" value="true" />
+      <created>1737553280341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737553280372</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -369,6 +372,7 @@
     <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
     <MESSAGE value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
+    <MESSAGE value="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample," />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample," />
   </component>
 </project>
