@@ -20,6 +20,14 @@ public class CatsGettersSettersExample {
     }
 
     public String getName() {
+        if (name == "Барсик") {
+            System.out.println("Имя кота должно быть не " + name +", а Пушок = НеХорошо");
+        } if (name == "Пушок") {
+            System.out.println("Имя кота Пушок = Хорошо");
+        }
+        else {
+            System.out.println("а где Пушок ?");
+        }
         return name;
     }
 
