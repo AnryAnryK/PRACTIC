@@ -41,7 +41,7 @@ public class Job {
         }
         if (this.dayOfWeek.getDayOfWeek() == DayOfWeek.Воскресенье) {
             goToJob = false;
-            System.out.println("Ура, выходной ");
+            System.out.println("Ура, выходной  ");
         }
 
 
