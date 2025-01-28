@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample,">
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Enum/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Enum/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Enum/WorkingDayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Scanner/ScannerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GettersSetters/CatsGettersSettersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GettersSetters/CatsGettersSettersExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GettersSetters/CatsMainGettersSettersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GettersSetters/CatsMainGettersSettersExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -71,77 +74,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CatsMainExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CatsMainGettersSettersExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Contact.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ErrorsAndExceptions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Overload.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Override.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReqresInSingleUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamApi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamApiExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamApiSortedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamBuilderExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetExample.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PRACTIC [allureReport].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PRACTIC [allureServe].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Array.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContactTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContactTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoQaComAutoForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoQaComAutoForm2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETLombokTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoqaComSwaggerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HerokuappDragAndDrop.DragAndDrops.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.OzonFindTest.YandexFindSniffetsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.OzonFindTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RamblerFindTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.DogStatus.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ToDomvcFindTest.TodomvcFindTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ToDomvcFindTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YandexFindTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YandexPageFindsTest.YandexPageFinds.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/PRACTIC/src/test/java&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5908046&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CatsMainExample.executor": "Run",
+    "Application.CatsMainGettersSettersExample.executor": "Run",
+    "Application.Collections.executor": "Run",
+    "Application.Contact.executor": "Run",
+    "Application.ErrorsAndExceptions.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetExample.executor": "Run",
+    "Application.Job.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Overload.executor": "Run",
+    "Application.Override.executor": "Run",
+    "Application.ReqresInSingleUserTest.executor": "Run",
+    "Application.ScannerExample.executor": "Run",
+    "Application.StreamApi.executor": "Run",
+    "Application.StreamApiExample.executor": "Run",
+    "Application.StreamApiSortedExample.executor": "Run",
+    "Application.StreamBuilderExample.executor": "Run",
+    "Application.TreeSetExample.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
+    "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
+    "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
+    "Gradle.PRACTIC [allureReport].executor": "Run",
+    "Gradle.PRACTIC [allureServe].executor": "Run",
+    "JUnit.Array.executor": "Run",
+    "JUnit.ContactTest.executor": "Run",
+    "JUnit.ContactTest.test1.executor": "Run",
+    "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
+    "JUnit.DemoQaComAutoForm.executor": "Run",
+    "JUnit.DemoQaComAutoForm2.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETLombokTest.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor": "Run",
+    "JUnit.DemoqaComSwaggerTest.executor": "Run",
+    "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
+    "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
+    "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
+    "JUnit.HerokuappDragAndDrop.DragAndDrops.executor": "Run",
+    "JUnit.OzonFindTest.YandexFindSniffetsTest.executor": "Run",
+    "JUnit.OzonFindTest.executor": "Run",
+    "JUnit.RamblerFindTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.DogStatus.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsBestPracticeSuccessfulTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsLombokModelPOSTResponseBestPracticeSuccessfulTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsPOSTResponseBestPracticeSuccessfulTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
+    "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor": "Run",
+    "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
+    "JUnit.ToDomvcFindTest.executor": "Run",
+    "JUnit.YandexFindTest.executor": "Run",
+    "JUnit.YandexPageFindsTest.YandexPageFinds.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/PRACTIC/src/test/java",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/PRACTIC/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5908046",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GettersSetters" />
@@ -170,13 +175,26 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CatsMainGettersSettersExample">
+  <component name="RunManager" selected="Application.Job">
     <configuration name="CatsMainGettersSettersExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GettersSetters.CatsMainGettersSettersExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GettersSetters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Job" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enum.Job" />
+      <module name="PRACTIC.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,25 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApiExample" />
+    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scanner.ScannerExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamApiSortedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApiSortedExample" />
-      <module name="PRACTIC.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StreamApi.*" />
+          <option name="PATTERN" value="Scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Job" />
+        <item itemvalue="Application.ScannerExample" />
         <item itemvalue="Application.CatsMainGettersSettersExample" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StreamBuilderExample" />
-        <item itemvalue="Application.StreamApiSortedExample" />
-        <item itemvalue="Application.StreamApiExample" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737553280372</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19">
+      <option name="closed" value="true" />
+      <created>1737988325351</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737988325351</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -376,6 +389,7 @@
     <MESSAGE value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample," />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample," />
+    <MESSAGE value="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19" />
   </component>
 </project>
