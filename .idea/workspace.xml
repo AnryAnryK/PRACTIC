@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Enum/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Enum/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Enum/WorkingDayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Scanner/ScannerExample.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/LinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/QueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/SetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,24 +79,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.CatsMainExample.executor": "Run",
-    "Application.CatsMainGettersSettersExample.executor": "Run",
+    "Application.ArrayListExample.executor": "Run",
+    "Application.ArrayMain.executor": "Run",
+    "Application.Arrays.Main.executor": "Run",
+    "Application.Car.executor": "Run",
     "Application.Collections.executor": "Run",
     "Application.Contact.executor": "Run",
+    "Application.Duck.executor": "Run",
     "Application.ErrorsAndExceptions.executor": "Run",
-    "Application.HashMapExample.executor": "Run",
+    "Application.Fish.executor": "Run",
     "Application.HashSetExample.executor": "Run",
-    "Application.Job.executor": "Run",
+    "Application.LinkedListExample.executor": "Run",
+    "Application.ListExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
     "Application.Overload.executor": "Run",
     "Application.Override.executor": "Run",
+    "Application.QueueExample.executor": "Run",
     "Application.ReqresInSingleUserTest.executor": "Run",
-    "Application.ScannerExample.executor": "Run",
+    "Application.Sedan.executor": "Run",
+    "Application.SetExample.executor": "Run",
     "Application.StreamApi.executor": "Run",
-    "Application.StreamApiExample.executor": "Run",
-    "Application.StreamApiSortedExample.executor": "Run",
-    "Application.StreamBuilderExample.executor": "Run",
-    "Application.TreeSetExample.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
     "Gradle.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Debug",
@@ -101,6 +107,7 @@
     "Gradle.PRACTIC [allureReport].executor": "Run",
     "Gradle.PRACTIC [allureServe].executor": "Run",
     "JUnit.Array.executor": "Run",
+    "JUnit.Array2.executor": "Run",
     "JUnit.ContactTest.executor": "Run",
     "JUnit.ContactTest.test1.executor": "Run",
     "JUnit.DemoQaComAutoForm.DemoQaComAutoFormTest.executor": "Run",
@@ -110,6 +117,8 @@
     "JUnit.DemoqaComSwaggerTest.DemoqaComSwaggerGETTest.executor": "Run",
     "JUnit.DemoqaComSwaggerTest.ReqresinTest2.executor": "Run",
     "JUnit.DemoqaComSwaggerTest.executor": "Run",
+    "JUnit.Duck.executor": "Run",
+    "JUnit.Duck.swim.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.OpenGitHubPage.executor": "Run",
     "JUnit.FindInGitHubSelenideWikiSoftAssertionsJUnit5.executor": "Run",
     "JUnit.FindInGitHubSolutionsWithHover.OpenGitHubPage.executor": "Run",
@@ -126,6 +135,8 @@
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenAndSomeLogsSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiWhithGivenLogsSucessfullTest.executor": "Run",
+    "JUnit.Sedan.executor": "Run",
+    "JUnit.Sedan.gas.executor": "Run",
     "JUnit.ToDomvcFindTest.TodomvcFindTest.executor": "Run",
     "JUnit.ToDomvcFindTest.executor": "Run",
     "JUnit.YandexFindTest.executor": "Run",
@@ -149,7 +160,6 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="GettersSetters" />
       <recent name="SelenideTests.Lesson3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -169,19 +179,18 @@
       <recent name="HashcodeEquals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="GettersSetters" />
-      <recent name="StreamApi" />
       <recent name="CollectionsJava" />
+      <recent name="Arrays" />
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Job">
-    <configuration name="CatsMainGettersSettersExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GettersSetters.CatsMainGettersSettersExample" />
+  <component name="RunManager" selected="Application.HashSetExample">
+    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.ArrayListExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GettersSetters.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Job" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enum.Job" />
+    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.HashSetExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GettersSetters.Main" />
+    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.LinkedListExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GettersSetters.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scanner.ScannerExample" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.MapExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Scanner.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamBuilderExample" />
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsJava.QueueExample" />
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamApi.*" />
+          <option name="PATTERN" value="CollectionsJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Job" />
-        <item itemvalue="Application.ScannerExample" />
-        <item itemvalue="Application.CatsMainGettersSettersExample" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StreamBuilderExample" />
+        <item itemvalue="Application.HashSetExample" />
+        <item itemvalue="Application.LinkedListExample" />
+        <item itemvalue="Application.ArrayListExample" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -356,23 +365,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733477030731</updated>
     </task>
-    <task id="LOCAL-00013" summary="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample,">
+    <task id="LOCAL-00013" summary="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable">
       <option name="closed" value="true" />
-      <created>1737553280341</created>
+      <created>1737361958532</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1737553280372</updated>
+      <updated>1737361958532</updated>
     </task>
-    <task id="LOCAL-00014" summary="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19">
+    <task id="LOCAL-00014" summary="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)">
       <option name="closed" value="true" />
-      <created>1737988325351</created>
+      <created>1737378315278</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1737988325351</updated>
+      <updated>1737378315278</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
+      <option name="closed" value="true" />
+      <created>1737448421151</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737448421151</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -388,8 +405,9 @@
     <MESSAGE value="2024.10.25 -  практика (автотесты TodomvcFindTest на https://todomvc.com/)" />
     <MESSAGE value="2024.12.06 -  добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
     <MESSAGE value="2024.12.06 -  c &quot;finally&quot; _добавил код &quot;try { } catch (Exception e) {}&quot;и комментарии в Пакет &quot;ErrorsAndExceptions&quot; (Спискок вопросов по Джава)" />
-    <MESSAGE value="2025.01.22 -  добавил в package CollectionsJava:&#10;class HashMapExample,&#10;class HashSetExample,&#10;class TreeSetExample," />
-    <MESSAGE value="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.01.27 -  добавил в package GettersSetters:&#10;в public CatsGettersSettersExample  - скорректировал строки кода с 23 по 31&#10;&#10;и  в public class CatsMainGettersSettersExample также добавил строки кода с 10 по 19" />
+    <MESSAGE value="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable" />
+    <MESSAGE value="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)" />
+    <MESSAGE value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
   </component>
 </project>
