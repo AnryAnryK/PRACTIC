@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/HashSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/LinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsJava/SetExample.java" afterDir="false" />
+    <list default="true" id="1b747d80-6476-4e83-925e-f029f2a621d8" name="Changes" comment="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами (6 раз пушу)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RandomValuesTests/RandomValueTestsStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +58,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,6 +123,7 @@
     "JUnit.OzonFindTest.YandexFindSniffetsTest.executor": "Run",
     "JUnit.OzonFindTest.executor": "Run",
     "JUnit.RamblerFindTest.executor": "Run",
+    "JUnit.RandomValueTestsStrings.testRandomValues.executor": "Run",
     "JUnit.ReqresInSingleUserTest.DogStatus.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiGivenSucessfullTest.executor": "Run",
     "JUnit.ReqresInSingleUserTest.SingleUserApiSucessfullTest.executor": "Run",
@@ -184,7 +182,7 @@
       <recent name="SelenideTests.Lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetExample">
+  <component name="RunManager" selected="JUnit.RandomValueTestsStrings.testRandomValues">
     <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionsJava.ArrayListExample" />
       <module name="PRACTIC.test" />
@@ -237,26 +235,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsJava.QueueExample" />
+    <configuration name="RandomValueTestsStrings.testRandomValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRACTIC.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsJava.*" />
+          <option name="PATTERN" value="RandomValuesTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="RandomValuesTests" />
+      <option name="MAIN_CLASS_NAME" value="RandomValuesTests.RandomValueTestsStrings" />
+      <option name="METHOD_NAME" value="testRandomValues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomValueTestsStrings.testRandomValues" />
         <item itemvalue="Application.HashSetExample" />
         <item itemvalue="Application.LinkedListExample" />
         <item itemvalue="Application.ArrayListExample" />
         <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -389,8 +390,27 @@
       <option name="project" value="LOCAL" />
       <updated>1737448421151</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами">
+      <option name="closed" value="true" />
+      <created>1739356396303</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739356396304</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024.09.26 -   &#10;+7 урок (DemoQaComAutoForm)" />
@@ -408,6 +428,10 @@
     <MESSAGE value="2025.01.20 -  package Interface, class Duck implements Swimmable и class Fish implements Swimmable" />
     <MESSAGE value="2025.01.20 -  добавил package AbstractClass (по Абстрактному Классу)" />
     <MESSAGE value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.01.21 -  добавил package Arrays класс class Array и class ArrayMain с примерами" />
+    <MESSAGE value="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами" />
+    <MESSAGE value="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами (2 раз пушу)" />
+    <MESSAGE value="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами (5 раз пушу)" />
+    <MESSAGE value="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами (6 раз пушу)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.12 -  в package API добавил public class SelenoidCloudTests с Успешными API-тестами (6 раз пушу)" />
   </component>
 </project>
